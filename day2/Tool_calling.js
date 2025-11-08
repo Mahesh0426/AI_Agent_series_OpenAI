@@ -4,6 +4,7 @@ import { Agent, run, tool } from "@openai/agents";
 import { z } from "zod";
 import axios from "axios";
 import nodemailer from "nodemailer";
+
 // Tools
 const getWeather = tool({
   name: "get_weather",
