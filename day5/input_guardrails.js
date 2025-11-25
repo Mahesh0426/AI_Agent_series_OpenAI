@@ -16,7 +16,7 @@ const mathQueryChecker = new Agent({
 
     Rules:
     - The question has to be strictly a maths equation only.
-    - Reject any other kind of request even if it is rekated to maths.
+    - Reject any other kind of request even if it is not related to maths.
     `,
   outputType: z.object({
     isValidMathQuestion: z

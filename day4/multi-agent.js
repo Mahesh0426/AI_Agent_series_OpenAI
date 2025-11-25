@@ -104,4 +104,4 @@ async function main(query = "") {
   console.log(result.finalOutput);
 }
 
-main(`My Interternet is very slow can you help me `);
+main(`My Internet is very slow can you help me `);
